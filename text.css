@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+
+
+/*This is what will be on the body of the whole website*/
+body {
+        padding:0;
+        margin:0;
+        font-size:small;
+   }
+/*End of body*/
+
+   /* This is my navigation*/
+.nav {
+    background-color:rgb(76,67,67);
+	color: #000000;
+	list-style: none;
+	text-align: center;
+	padding: 5px 0 5px 0;
+
+}
+
+
+.nav > li {
+	color: white;
+	display: inline-block;
+	padding: 0 20px 0 20px;
+	font-size: 30px;
+
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: #FFFFFF;
+
+}
+
+
+.nav > li > a:hover{
+	color: #c1c1c1;
+}
+/*end of navigation*/
+
+
+/*This is my title*/
+.border1 {
+	background-color:rgb(123,121,121);
+	color: #000000;
+	list-style: none;
+	text-align: center;
+	padding: 1px 0 1px 0;
+
+
+}
+
+.border1 > h1 {
+
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 50px;
+}
+/*End of title*/
+
+/*This is message on sign up and log in page*/
+.form-box {
+	text-align: center;
+	margin-top: 150px;
+/*end of form-box*/
+
+}
+/*This is the form used for sign up and log in*/
+form {
+  margin:0 auto;
+  width:600px;
+  margin-bottom: 200px;
+}
+/*End of form*/
+
+/*This is when the user has to input their information*/
+input {
+  margin-bottom:5px;
+  padding:15px;
+  width: 100%;
+  border:3px solid black;
+}
+/*End of input*/
+
+/*This is the button to click after the information has been written. The user clicks and the button works accordingly, and signs up or logs them in*/
+button {
+  padding:15px;
+  width: 636px;
+  height: 65px;
+  color: white;
+  background-color: #00FF11;
+  border: 3px solid black;
+
+}
+/*End of button*/
+
+
+
+
+/*This is the comment for the links. It directed them to either login or signup page*/
+a {
+  cursor:pointer
+
+}
+/*End of link*/
+
+
+
+
+/*This is my footer for each individual page*/
+
+.footer {
+    background-color:rgb(76,67,67);
+	color: red;
+	list-style: none;
+	text-align: center;
+	padding: 5px 0 5px 0;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+}
+
+.footer > p {
+
+   font-size: 20px;
+
+}
+
+/*This is the end of my footer*/
